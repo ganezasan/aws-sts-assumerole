@@ -3,7 +3,7 @@ resource "aws_iam_user" "taka_assume_role_bucket_executor" {
 }
 
 resource "aws_s3_bucket" "taka_assume_role_test" {
-  bucket = "taka-assume-roletest"
+  bucket = "taka-assume-role-test"
 }
 
 data "aws_iam_policy_document" "taka_assume_role_test_bucket_access" {
