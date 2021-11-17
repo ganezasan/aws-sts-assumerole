@@ -74,9 +74,6 @@ aws --profile temp sts get-caller-identity
 
 ```
 touch foobar
-aws --profile temp s3 cp foobar s3://taka-assume-roletest
-aws --profile temp s3 ls s3://taka-assume-roletest
+aws --profile temp s3 cp foobar s3://taka-assume-role-test
+aws --profile temp s3 ls s3://taka-assume-role-test
 ```
-
-
-
